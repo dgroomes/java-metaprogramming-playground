@@ -46,7 +46,7 @@ public sealed interface ObjectInspection permits
         }
     }
 
-    record EnumInspection(Class<? extends Enum<?>> clazz, Object value) implements ObjectInspection {
+    record EnumInspection(Class<? extends Enum> clazz, Object value) implements ObjectInspection {
     }
 
     record OtherObjectInspection(Class<?> clazz) implements ObjectInspection {
