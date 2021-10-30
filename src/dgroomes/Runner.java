@@ -16,6 +16,13 @@ public class Runner {
     }
 
     public static void main(String[] args) {
+        inspectObjects();
+    }
+
+    /**
+     * Let's inspect some objects!
+     */
+    private static void inspectObjects() {
         var objects = List.of(
                 "I am a string",
                 File.class,
@@ -23,7 +30,6 @@ public class Runner {
                 PrimaryColor.BLUE,
                 new Point(1, 2));
 
-        // Let's inspect some objects!
         for (var obj : objects) {
             var inspection = ObjectInspection.inspect(obj);
             var description = switch (inspection) {

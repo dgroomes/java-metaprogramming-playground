@@ -40,3 +40,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
     * This describes Java agents.
 * [Java Magazine: "Understanding Java method invocation with invokedynamic"](https://blogs.oracle.com/javamagazine/post/understanding-java-method-invocation-with-invokedynamic)
 * [JavaDoc for Proxy](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/reflect/Proxy.html)
+* [JavaDoc for "java.lang.instrument"](https://docs.oracle.com/en/java/javase/17/docs/api/java.instrument/java/lang/instrument/package-summary.html)
+  * This is the only official Java document I can find on agents. I'm looking for more information and for examples. The
+    OpenTelemetry project has a Java agent and the code is available at [open-telemetry/opentelemetry-java-instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation) 
+    on GitHub. It is ostensibly a good example of a sophisticated Java agent but there is little in the way of documentation
+    that explains the implementation. Also we can count on Baeldung to have a [Guide To Instrumentation](https://www.baeldung.com/java-instrumentation)
+    which shows a simple agent example!
