@@ -29,6 +29,9 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * Do something with classpath scanning. Can I find all classes that extend Record, for example?
 * Do something with MethodHandles. No idea how this works.
 * Do something with dynamic Proxies
+* Do something with JSR-223 or JShell to execute dynaic code at runtime and somehow side-effect the program state. This
+  is possible, right?
+* Do something with Java agents (premain or dynamic)
 
 ## Reference
 
