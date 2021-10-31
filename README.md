@@ -31,11 +31,12 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * Do something with dynamic Proxies
 * Do something with JSR-223 or JShell to execute dynaic code at runtime and somehow side-effect the program state. This
   is possible, right?
-* Do something with Java agents (premain or dynamic)
+* IN PROGRESS Do something with Java agents (premain or dynamic)
 
 ## Reference
 
 * [The Java Tutorials: "The Reflection API"](https://docs.oracle.com/javase/tutorial/reflect/index.html)
+* [The Java Tutorials: "Using JAR Files: The Basics"](https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html)
 * [Package java.lang.instrument](https://docs.oracle.com/javase/7/docs/api/java/lang/instrument/package-summary.html)
     * This describes Java agents.
 * [Java Magazine: "Understanding Java method invocation with invokedynamic"](https://blogs.oracle.com/javamagazine/post/understanding-java-method-invocation-with-invokedynamic)

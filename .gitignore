@@ -1,4 +1,6 @@
 .idea/
 out/
+agent-out/
 sources.txt
 .DS_Store
+*.jar
