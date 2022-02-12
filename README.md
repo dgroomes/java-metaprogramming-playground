@@ -32,6 +32,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
 * Do something with JSR-223 or JShell to execute dynaic code at runtime and somehow side-effect the program state. This
   is possible, right?
 * IN PROGRESS Do something with Java agents (premain or dynamic)
+  * Can I replace a method definition using the agent? 
 
 ## Reference
 
