@@ -9,7 +9,7 @@ compile() {
   local source=$1
   local compiled=$2
   find "$source" -name "*.java" > sources.txt
-  javac --enable-preview -source 17 @sources.txt --class-path "lib/*" -d "$compiled"
+  javac -source 21 @sources.txt --class-path "lib/*" -d "$compiled"
   rm sources.txt
 }
 
